@@ -4,11 +4,20 @@
 ![Example usage](gitchanges.gif)
 ## Installing
 
-If using [pathogen.vim](https://github.com/tpope/vim-pathogen), simply copy and paste these commands:
+Install using your favorite package manager, or use Vim/neovim's built-in package support:
+
+### neovim
 
 ```bash
-cd ~/.vim/bundle
-git clone git://github.com/jwarby/vim-gitchanges.git
+mkdir -p ~/.config/nvim/pack/jwarby/start
+git clone git@github.com:jwarby/vim-gitchanges ~/.config/nvim/pack/jwarby/start/vim-gitchanges
+```
+
+### Vim
+
+```bash
+mkdir -p ~/.vim/pack/jwarby/start
+git clone git@github.com:jwarby/vim-gitchanges ~/.vim/pack/jwarby/start/vim-gitchanges
 ```
 
 ## Usage
