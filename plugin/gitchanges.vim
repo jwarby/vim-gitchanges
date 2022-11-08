@@ -2,7 +2,7 @@ if exists("g:loaded_gitchanges")
   finish
 endif
 
-let g:loaded_gitchanges = '1.0.0'
+let g:loaded_gitchanges = '1.0.1'
 
 augroup gitchanges
     " Automatically close all gitchanges buffers when closing files
