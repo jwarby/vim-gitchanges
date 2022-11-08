@@ -14,12 +14,12 @@ function! gitchanges#open()
 
   " Show the changes, set the syntax and delete the leading blank line
   put=changes
-  set syntax=diff
+  setlocal syntax=diff
   :normal ggdd
 
   " Set nomodified so that Vim doesn't prompt us when we try to close the file
   " without saving
-  set nomodified
+  setlocal nohidden nomodified
 endfunction
 
 function! gitchanges#close()
